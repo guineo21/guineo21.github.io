@@ -1,0 +1,54 @@
+body {
+	background: #FFE;
+
+}
+
+a {
+	color: #900;
+}
+
+h2 {
+	font-family: arial;
+}
+
+h4 {
+	font-style: italic;
+	color: #887;
+}
+
+img {
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+}
+
+.container {
+	margin: 25px;
+
+}
+
+/*
+
+Black border following instructions from 
+this website 
+https://dzone.com/articles/creating-body-border-css
+PS: Not sure how this is working.
+*/
+
+#top, #bottom, #left, #right {
+	background: black;
+	position: fixed;
+}
+	#left, #right {
+			top: 0; bottom: 0;
+			width: 5px;
+			}
+			#left { left: 0; }
+			#right { right: 0; }
+
+	#top, #bottom {
+			left: 0; right: 0;
+			height: 5px;	
+			}
+			#top { top:0; }
+			#bottom {bottom: 0;}
