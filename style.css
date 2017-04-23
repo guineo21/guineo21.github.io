@@ -1,3 +1,47 @@
 body {
-    background: red;
+    color: white;
+    margin: 0;
+}
+
+.name {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #1E1E20;
+	border: 1px solid black;
+
+
+}
+
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+img {
+	border:15px solid #e1e1e1;
+	border-radius: 200px;
+	box-shadow: 5px 5px 5px grey;
+	display: block;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.info {
+	text-align: center;
+	color: #1E1E20;
+	font-size: 14px;
+	font-family: "Courier New",Courier, monospace;
+	margin-top: 25px;
+	border: 
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin: 1em 0;
 }
