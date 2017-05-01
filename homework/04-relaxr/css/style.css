@@ -1,0 +1,164 @@
+/*
+Project Name: relasxt
+Client: Your Client
+Author: Vianney Miranda
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     background: black; 
+     background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 720px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.title {
+  font-size: 24px;
+  color: white;
+  padding: 25px 0 0 75px;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  padding: 75px 0 0 0;
+  font-weight: semibold;
+
+}
+
+.form-button {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.header-button {
+  padding: 5px 5px;
+  background-color: #f9e42e;
+  color: black;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.benefits-area {
+  position: absolute;
+  right: 0;
+  left: 0;
+  background: white;
+  height: 350px;
+}
+
+.benefits-text {
+  width: 720px;
+  margin: 0 auto;
+  font-weight: 400;
+
+}
+
+.title-benefits {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+
+}
+
+.description {
+  padding-top: 25px;
+  padding-right: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #033048;
+}
+
+.quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  width: 720px;
+  height: 400px;
+}
+
+ul {
+  padding: 35px; 
+}
+
+li {
+  list-style-type: disc;
+}
+
+
+
+footer {
+
+}
+
+
+
+
+
