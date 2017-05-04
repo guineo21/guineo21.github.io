@@ -1,0 +1,390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"di",
+				"display"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"top",
+				"padding-top"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"d",
+				"documentation"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"boto",
+				"bottom"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "PA",
+		"selected_items":
+		[
+			[
+				"PA",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"contro: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"livere",
+				"Permute Lines: Reverse"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"livereload",
+				"LiveReload: Enable/disable plug-ins"
+			]
+		],
+		"width": 471.0
+	},
+	"console":
+	{
+		"height": 421.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control",
+			"Install Package",
+			"Package Control: Install Package",
+			"install package LiveReload",
+			"install package",
+			"cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/",
+			"Run Package Control: Install Package",
+			"Run \"Package Control: Install Package\"",
+			"Package Control: Install Package"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/fashion-blog-part2/css/main.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/fashion-blog-part2/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/layout-challenge/css/magazine.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/layout-challenge/css/simple-marketing.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/layout-challenge/css/three-column.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/layout-challenge/css/two-column.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/layout-challenge/01-layout-floats.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/layout-challenge/two-column.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/layout-challenge/three-column.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/layout-challenge/simple-marketing.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/floating-sections/css/style.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/floating-sections/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/horizontal-nav/css/style.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/relative-path-practice/css/main.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class05/relative-path-practice/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/homework/03-fashion-blog/css/main.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/homework/03-fashion-blog/copy.txt",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/homework/03-fashion-blog/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class04/art-is-hard/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class04/art-is-hard/index_.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class03/box-model-layout/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/demo/blank.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/demo/arrays_assoc.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/demo/test.blade.php",
+		"/Volumes/n3y_Jet/FEWD/Class-Downloads/class03/sunnyside/eats.html",
+		"/Volumes/n3y_Jet/FEWD/Class-Downloads/class03/sunnyside/index.html",
+		"/Users/VianneyMiranda/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/VianneyMiranda/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/style.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/homework/02-foxes_page/foxes/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/homework/cookie_recipe/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/homework/cookie_recipe/README",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/homework/cookie_recipe/styles.css",
+		"/Users/VianneyMiranda/Desktop/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class02/cookie_recipe/style.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class02/press_release/about.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class02/press_release/style.css",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class02/press_release/index.html",
+		"/Volumes/n3y_Jet/FEWD/GitHub-Repositories/guineo21.github.io/class-work/class02/cookie_recipe/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"height",
+			"white",
+			"italic",
+			"Pampas fox(Lycalopex)\nSechuran fox(Lycalopex)\nHoary fox(Lycalopex)\nBat-eared fox (Otocyon)\nGray fox (Urocyon)\nIsland fox(Urocyon)\nCozumel fox(Urocyon)\nArctic fox (Vulpes)\nBengal fox(Vulpes)\nBlanford's fox(Vulpes)\nCape fox(Vulpes)\nCorsac fox(Vulpes)\nFennec fox(Vulpes)\nKit fox(Vulpes)\nPale fox(Vulpes)\nRüppell's fox(Vulpes)\nRed fox(Vulpes)\nSwift fox(Vulpes)\nTibetan sand fox(Vulpes)",
+			"italic",
+			"\t\tKingdom: Animalia \n\t\tPhylum: Chordata \n\t\tClass: Mammalia \n\t\tOrder: Carnivora \n\t\tFamily: Canidae"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"latin"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

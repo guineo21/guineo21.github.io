@@ -1,0 +1,54 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 150px;
+
+}
+
+header {
+  background: red;
+}
+
+main {
+  background: yellow;
+  float: left;
+  width: 500px;
+}
+
+aside {
+  background: green;
+  float: right;
+  width: 500px;
+}
+
+section {
+  background: grey;
+  float: left;
+  width: 300px;
+}
+
+article {
+  background: purple;
+  float: right;
+  width: 300px;
+}
+
+div {
+  background: goldenrod;
+}
+
+
+footer {
+  background: blue;
+}
+
+.clearfix:after {
+content: ".";
+visibility: hidden;
+display: block;
+height: 0;
+clear:both;
+}
