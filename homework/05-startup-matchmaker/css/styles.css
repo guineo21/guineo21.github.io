@@ -74,7 +74,7 @@ nav li a {
 	color: white;
 }
 
-nav li a {
+nav li a:hover {
 	color: #FFFE00;
 }
 
