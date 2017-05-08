@@ -2,3 +2,221 @@
 font-family: 'Oswald', sans-serif;
 font-family: 'Merriweather', serif;
 font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+	font-family: 'Source Sans Pro';
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/*=== Header and Slogan ==== */
+
+header {
+	background: black;
+	height: 50px;
+	border-bottom: solid #FFFE00;
+	border-width: 10px;
+}
+
+.header-container {
+	padding: 15px 15px;
+	margin: auto 0;
+}
+
+.logo {
+	font-family: "Merriweather", serif;
+	color: #FFFE00;
+	font-size: 24px;
+	padding: 0 5px;
+	float: left;
+}
+
+.slogan {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 700;
+	font-size: 25px;
+	background: #C6C6C6;
+	text-align: center;
+	height: 25px;
+	color: black;
+	padding: 25px;
+}
+
+.slogan .slogan-underline {
+	text-decoration: underline;
+	text-decoration-color:  #FFFE00;
+}
+
+.slogan .slogan-strike {
+	text-decoration: line-through;
+	text-decoration-color:  black;
+}
+
+/*=== Navigation ===*/
+nav {
+	color: white;
+	float: right;
+	padding-right: 15px;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	padding-left: 15px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+/*=== Article (Main Banner) ===*/
+
+.banner {
+	background-image: url(../img/coworking.jpg);
+	background-size: 100% auto;
+	background-position: 0 -200px;
+	background-repeat: no-repeat;
+	height: 300px;
+	padding: 25px 25px 0 650px;
+}
+
+.overlay {
+	background-color: rgba(255, 255, 255, 0.75);
+	border: solid rgba(100, 100, 100, 0.5);
+	border-width: 2px;
+	width: 350px;
+	height: 190px;
+	box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.75);
+	padding: 40px 20px;
+}
+
+article .banner .overlay h2 {
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 28px;
+}
+
+article .banner .overlay p {
+	font-family: "Oswald";
+	font-weight: 400;
+	line-height: 2;
+	padding-top: 15px;
+}
+
+.btn-profile {
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 20px;
+	background-color: #FFFE00;
+	border: none;
+	color: black;
+	margin-top: 20px;
+	padding: 15px 0px 15px 0;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.btn-profile:hover {
+	background: black;
+	color: #FFFE00;
+
+
+}
+
+/*=== 3 Column Section ===*/
+
+section {
+	padding-top: 25px;
+	background: #EEEEEE;
+	width: 1080px;
+	margin: 0 auto;
+
+}
+
+section h1 {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+section p{
+	font-family: "Oswald";
+	font-weight: 400;
+	line-height: 2;
+	padding-top: 15px;
+
+}
+
+
+.details-left {
+	width: 310px;
+	height: 150px;
+	padding: 25px 25px;
+	float: left;
+}
+
+.details-middle {
+	width: 308px;
+	height: 150px;
+	padding: 25px 25px;
+	float: left;  
+	border-left: 1px solid #C6C6C6;
+	border-right: 1px solid #C6C6C6;
+}
+
+.details-right {
+	width: 310px;
+	height: 200px;
+	padding: 25px 25px;
+	float: left;
+}
+
+.btn-area {
+
+	margin: 20px auto;
+	text-align: center;
+}
+
+section button {
+	padding: 10px 0;
+	border-radius: 10px;
+	width: 80%;
+	background: #C6C6C6;
+	font-family: "Oswald";
+	font-weight: 700;
+	font-size: 20px;
+	border: none;
+	color: black;
+	text-transform: uppercase;
+	box-shadow: 2px 2px 2px #888888;
+
+}
+
+section button:hover {
+	background: #FFFE00;
+	color: black;
+}
+
+
+/*=== Footer ==== */
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 25px 0 25px 25px;
+}
+
+/* === Clearfix for annoying floats ==== */
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
