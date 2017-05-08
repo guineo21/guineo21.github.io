@@ -74,6 +74,10 @@ nav li a {
 	color: white;
 }
 
+nav li a {
+	color: #FFFE00;
+}
+
 /*=== Article (Main Banner) ===*/
 
 .banner {
