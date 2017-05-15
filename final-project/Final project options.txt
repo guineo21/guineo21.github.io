@@ -1,0 +1,12 @@
+Final project options
+
+Option 1:
+Redesign website for my company using a local copy of Magento, without touching anything that is live.
+
+I'm also learning SASS on the side and I think this can be a great opportunity to apply what I've learned in class into practice.
+
+
+Option 2:
+Pizza Maker; make a website with different options/ingredients on the side where you can drag different ingredients on to a empty dough, each time an ingredient is dragged the image changes to show a new pizza with all the ingredients applied. Once pizza is done send the user to a second page whit a message that pizza is done and maybe show an animation of the pizza on an oven. 
+
+
