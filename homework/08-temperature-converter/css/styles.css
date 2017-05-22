@@ -1,0 +1,107 @@
+/*Google Fonts
+font-family: 'Francois One', sans-serif;
+font-family: 'Lato', sans-serif;*/
+body {
+	background: #444444;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	margin-right: 17%;
+	margin-left: 17%;
+/*	border-bottom: solid 5px white;*/
+
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#fahrenheit {
+	float: left;
+	padding-top: 50px;
+	width: 480px;
+	text-align: center;
+}
+
+#celsius {
+	padding-top: 50px;
+	float: left;
+	width: 480px;
+	text-align: center;
+}
+
+.c-degree{
+	position: absolute;
+	padding: 50px 0 0 830px;
+	font-weight: 500;
+}
+
+.f-degree{
+	position: absolute;
+	padding: 50px 0 0 350px;
+}
+
+#input-fahrenheit {
+	border: solid 15px #2274D1;
+	 /* css 3 */
+ 	border-radius:210px;
+	 /* mozilla */
+	 -moz-border-radius:210px;
+ 	/* webkit */
+ 	-webkit-border-radius:210px;
+}
+
+#input-celsius {
+	border: solid 15px #70A612;
+	 /* css 3 */
+ 	border-radius:210px;
+	 /* mozilla */
+	 -moz-border-radius:210px;
+ 	/* webkit */
+ 	-webkit-border-radius:210px;
+}
+
+h1 {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+h4 {
+	/*padding-bottom: 250px;*/
+	font-weight: 500;
+	font-size: 45px;
+	margin: 0;
+	padding: 15px 0 0 0;
+}
+
+input {
+	background: #444444;
+	font-family: 'Francois One', sans-serif;
+	font-size: 150px;
+	color: white;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	
+}
+
+/*Remove the blue glow around text-boxes*/
+
+textarea:focus, input:focus{
+    outline: none;
+    box-shadow: 0 0 50px 5px #1B1B1B;
+}
+
+/*Clearfix for floats*/
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

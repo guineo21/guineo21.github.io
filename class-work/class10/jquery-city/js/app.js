@@ -1,25 +1,32 @@
 // 1. Create .click() handlers for each of the thumbnails: #first, #second, #third, #fourth
 // 2. Use .attr() to change the `src` attribute of #bigimage to correspond to image that was clicked
-$('#first').click(function(){
-	var first = $('#first').attr('src');
-	$('#bigimage').attr('src', first)
+$('.thumb').click(function(){
+	var thumb = $(this).attr('src');
+	$('#bigimage').attr('src', thumb);
 
 })
 
-$('#second').click(function(){
-	var second = $('#second').attr('src');
-	$('#bigimage').attr('src', second)
+$('.thumbnails').find('.cool-img').css('border', '5px solid red');
+console.log($('#thumbnails').children());
 
+$('.thumbnails').click(function(){
+	$(this).find('cool-img').css('border','10px solid green');
 })
 
-$('#third').click(function(){
-	var third = $('#third').attr('src');
-	$('#bigimage').attr('src', third)
+// $('#second').click(function(){
+// 	var second = $('#second').attr('src');
+// 	$('#bigimage').attr('src', second)
 
-})
+// })
 
-$('#fourth').click(function(){
-	var fourth = $('#fourth').attr('src');
-	$('#bigimage').attr('src', fourth);
+// $('#third').click(function(){
+// 	var third = $('#third').attr('src');
+// 	$('#bigimage').attr('src', third)
 
-})
+// })
+
+// $('#fourth').click(function(){
+// 	var fourth = $('#fourth').attr('src');
+// 	$('#bigimage').attr('src', fourth);
+
+// })
