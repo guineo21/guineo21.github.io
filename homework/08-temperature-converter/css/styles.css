@@ -11,8 +11,8 @@ header {
 	margin-right: 17%;
 	margin-left: 17%;
 /*	border-bottom: solid 5px white;*/
-
 }
+
 
 #wrapper {
 	width: 960px;
@@ -45,7 +45,7 @@ header {
 	padding: 50px 0 0 350px;
 }
 
-#input-fahrenheit {
+.input-fahrenheit {
 	border: solid 15px #2274D1;
 	 /* css 3 */
  	border-radius:210px;
@@ -55,7 +55,7 @@ header {
  	-webkit-border-radius:210px;
 }
 
-#input-celsius {
+.input-celsius {
 	border: solid 15px #70A612;
 	 /* css 3 */
  	border-radius:210px;
@@ -95,6 +95,20 @@ input {
 textarea:focus, input:focus{
     outline: none;
     box-shadow: 0 0 50px 5px #1B1B1B;
+}
+
+
+.cold {
+	border: solid 15px #07C2C6;
+
+}
+
+.warm {
+	border: solid 15px #A2DB7F;
+}
+
+.hot {
+	border: solid 15px #FD3D45;
 }
 
 /*Clearfix for floats*/
