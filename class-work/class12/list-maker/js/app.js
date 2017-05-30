@@ -32,10 +32,16 @@ $(document).on('click', '.remove-item', function(){
 	$(this).closest('li').remove();
 });
 
+$(document).on('change', '.strike-through', function(){
+	// console.log('working');
+	$(this).closest('li').toggleClass('marked-done');
+})
+
 
 function appendItem (addItem){
 	var removeItem = '<div class="trash"><i class="fa fa-trash remove-item" aria-hidden="true"></i></div>';
-	var listItem = '<li>' + addItem + removeItem + '</li>';
+	var checkmark = '<input type="checkbox" class="strike-through">'
+	var listItem = '<li>' + checkmark + addItem + removeItem + '</li>';
 	$('#list').append(listItem);
 }
 
