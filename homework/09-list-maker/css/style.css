@@ -16,16 +16,37 @@ h1 {
 	font-size: 40px;
 }
 
+.trash {
+	text-align: right;
+	float: right;
+	width: 5%;
+}
+
+.strike-through {
+	width: 5%;
+}
+
+.marked-done {
+	text-decoration: line-through;
+}
+
+i:hover {
+	color: tomato;
+}
+
 ul {
 	font-family: "Sue Ellen Francisco", Arial, sans-serif;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	font-size: 30px;
+/*	border-bottom: 2px dotted #9CE6C1;*/
 }
 
-ul li {
+li {
 	border-bottom: 2px dotted #9CE6C1;
+	float: left;
+	width: 90%;
 }
 
 input {
@@ -46,4 +67,12 @@ button {
 	border: 1px solid #9CE6C1;
 	box-shadow: none;
 	padding: 10px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
