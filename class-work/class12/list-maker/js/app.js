@@ -26,19 +26,21 @@ $('#clickme').click(function(){
 	var item = $('#item').val();
 	appendItem(item);
 	$('#item').focus();
+});
 
+$(document).on('click', '.remove-item', function(){
+	$(this).closest('li').remove();
+});
 
-
-
-
-})
 
 function appendItem (addItem){
-	var listItem = '<li>' + addItem + '</li>';
+	var removeItem = '<div class="trash"><i class="fa fa-trash remove-item" aria-hidden="true"></i></div>';
+	var listItem = '<li>' + addItem + removeItem + '</li>';
 	$('#list').append(listItem);
-
-
 }
+
+
+
 
 
 })
